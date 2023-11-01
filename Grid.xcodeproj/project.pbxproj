@@ -14,6 +14,11 @@
 		CF2540702916D09B00B29671 /* GridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25406F2916D09B00B29671 /* GridTests.swift */; };
 		CF25407A2916D09B00B29671 /* GridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2540792916D09B00B29671 /* GridUITests.swift */; };
 		CF25407C2916D09B00B29671 /* GridUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25407B2916D09B00B29671 /* GridUITestsLaunchTests.swift */; };
+		CF2540892916D19300B29671 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2540882916D19300B29671 /* SearchView.swift */; };
+		CF25408B2916D1D000B29671 /* SearchInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25408A2916D1D000B29671 /* SearchInput.swift */; };
+		CF25408D2916D2E000B29671 /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25408C2916D2E000B29671 /* Labels.swift */; };
+		CF25408F2916D35F00B29671 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25408E2916D35F00B29671 /* Label.swift */; };
+		CF3C916F2916D44300330B4F /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3C916E2916D44300330B4F /* Grid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		CF2540752916D09B00B29671 /* GridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2540792916D09B00B29671 /* GridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridUITests.swift; sourceTree = "<group>"; };
 		CF25407B2916D09B00B29671 /* GridUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF2540882916D19300B29671 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		CF25408A2916D1D000B29671 /* SearchInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInput.swift; sourceTree = "<group>"; };
+		CF25408C2916D2E000B29671 /* Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labels.swift; sourceTree = "<group>"; };
+		CF25408E2916D35F00B29671 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		CF3C916E2916D44300330B4F /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +104,13 @@
 		CF25405D2916D09A00B29671 /* Grid */ = {
 			isa = PBXGroup;
 			children = (
+				CF25408E2916D35F00B29671 /* Label.swift */,
 				CF25405E2916D09A00B29671 /* GridApp.swift */,
 				CF2540602916D09A00B29671 /* ContentView.swift */,
+				CF2540882916D19300B29671 /* SearchView.swift */,
+				CF3C916E2916D44300330B4F /* Grid.swift */,
+				CF25408C2916D2E000B29671 /* Labels.swift */,
+				CF25408A2916D1D000B29671 /* SearchInput.swift */,
 				CF2540622916D09B00B29671 /* Assets.xcassets */,
 				CF2540642916D09B00B29671 /* Preview Content */,
 			);
@@ -258,6 +273,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF2540612916D09A00B29671 /* ContentView.swift in Sources */,
+				CF25408D2916D2E000B29671 /* Labels.swift in Sources */,
+				CF25408F2916D35F00B29671 /* Label.swift in Sources */,
+				CF2540892916D19300B29671 /* SearchView.swift in Sources */,
+				CF25408B2916D1D000B29671 /* SearchInput.swift in Sources */,
+				CF3C916F2916D44300330B4F /* Grid.swift in Sources */,
 				CF25405F2916D09A00B29671 /* GridApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Grid/Preview Content\"";
+				DEVELOPMENT_TEAM = WT54TQ5G55;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -445,6 +466,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Grid/Preview Content\"";
+				DEVELOPMENT_TEAM = WT54TQ5G55;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
